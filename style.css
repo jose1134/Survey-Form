@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cabin');
+
+html{
+  background-color: black;
+}
+*{
+  color: white;
+}
+form {
+  width: 40%;
+  height: 50%;
+  padding: 10px;
+  border: 5px solid white;
+  margin: 0 auto; 
+  text-align: center;
+  border-radius: 20px;
+}
+
+header {
+  font-size: 30px;
+  border: 0 none;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  width: 50%;
+  height: 50%;
+  padding: 30px;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+#description{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.text-info{
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+.field-1, .field-2, .field-3{
+  font-family: 'Cabin', sans-serif;
+  width: 80%;
+  margin: auto;
+  display: block;
+  border-bottom: 2px groove white;
+  padding: 10px 0px;
+}
+.btn{
+  padding-top: 25px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type=submit]{
+  width: 100px;
+  background-color: lightgray;
+  border-radius: 5px;
+  color: black;
+}
+textarea{
+  border-radius: 5px;
+  margin: auto;
+  resize: vertical;
+  position: relative;
+  height: 100px;
+  width: 70%;
+  background-color: lightgray;
+}
+
+#number, #email, #name{
+  display: block;
+  height: 10px;
+  margin: auto;
+  padding: 4px;
+}
+.number, .email, .name{
+  margin: 10px;
+}
+input[type=number], input[type=email], input[type=text]{
+  max-width: 200px;
+  color: black;
+  background-color: lightgray;
+  border: 1px groove white;
+  border-radius: 5px;
+}
+input[type=number]{
+  width: 75px;
+}
+
+#dropdown{
+  width: 100px;
+  margin-left: 30px;
+}
+#name-label, #email-label, #number-label{
+  float: left;
+}
+#option-label{
+  padding-top: 20px;
+}
+#option-buttons, #sales{
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+}
+#sales-label{
+  text-align: left;
+  float: left;
+  padding-left: 30px;
+}
+li{
+  margin: 5px;
+}
+input[type="checkbox"]{
+  margin-right: 5px; 
+}
+
+
+
